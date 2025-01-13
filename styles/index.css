@@ -58,6 +58,7 @@
 .btn-container{
     text-align: center;
 }
+/* hero section */
 #hero{
     background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url('../assets/hero-bg.png');
     background-repeat: no-repeat;
@@ -103,3 +104,154 @@
     text-align: center;
     margin-bottom: 32px;
 }
+#card-box{
+    width: 1320px;
+    margin: 50px auto;
+}
+#card-box .subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box span{
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card-container{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card .image-box{
+    width: 424px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.watch-btn{
+    border-radius: 8px;
+    padding: 21px 32px 21px 32px;
+    background: rgb(82, 195, 3);
+}
+/* about us */
+.about-content .title{
+    font-size: 48px;
+}
+.about-us{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+.about-img{
+    width: 100%;
+}
+.social-icon img{
+    width: 40px;
+}
+.title-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.follow{
+    text-align: center;
+}
+hr{
+    margin: 5px;
+}
+.social-icon{
+    text-align: center;
+}
+.about-img{
+    width: 960px;
+}
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    height: 671px;
+  }
+  
+  footer .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/social-bg.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    /* z-index: 0; */
+  }
+  
+  footer .about-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 40px;
+  }
+  footer .about-content .title{
+    color: black;
+  }
+  footer >.about-content, .subtitle, .follow{
+    color: rgb(16, 16, 16,0.6);
+  }
+  
+  footer .title-subtitle h1 {
+    font-weight: bold; /* Bold text for the title */
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 15px;
+  }
+  
+  footer .title-subtitle p {
+    font-weight: bold; /* Bold text for the subtitle */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  footer .follow {
+    font-weight: bold; /* Bold text for "Follow Us On" */
+    font-size: 20px; /* Adjust font size */
+    margin-top: 20px;
+  }
+  
+  footer .social-icon img {
+    margin: 10px; /* Add space between social icons */
+    width: 30px; /* Adjust icon size */
+    height: auto;
+  }
+  
+  footer hr {
+    border: 1px solid white;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
